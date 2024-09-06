@@ -1,0 +1,43 @@
+# .gitignore
+
+
+# Project-specific
+.idea/
+.vscode/
+*.log
+
+# Go specific
+bin/
+*.exe
+*.out
+
+# Dependency directories
+vendor/
+
+
+# OS-specific
+# Windows
+Thumbs.db
+ehthumbs.db
+# Folder config file
+Desktop.ini
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+.*.swp
+
+
+.env
